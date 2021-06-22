@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DGuetta">
+
+    <ImageView
+        android:layout_width="339dp"
+        android:layout_height="312dp"
+        android:layout_marginBottom="96dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dguetta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="256dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="76dp"
+        android:textSize="15sp"
+        android:text="Overview: Pierre David Guetta (/ˈɡɛtə/, French pronunciation: [pjɛʁ david ɡɛta]; born 7 November 1967) is a French DJ, record producer and songwriter. He has racked up over 50 million record sales globally, whereas his total number of streams is over 10 billion."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:id="@+id/goToArtistsDG"
+        android:text="back to artists"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
